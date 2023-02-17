@@ -922,7 +922,7 @@ spec:
             - mountPath: /registration
               name: registration-dir
         - name: csi-s3
-          image: "quay.io/datashim-io/csi-s3:latest"
+          image: "quay.io/combinator-ml/csi-s3:latest-amd64"
           imagePullPolicy: Always
           args:
             - "--v=5"
